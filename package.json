@@ -17,17 +17,17 @@
   },
   "homepage": "https://github.com/AwesomeHamster/koishi-plugin-ffxiv-fflogs",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "directories": {
     "src": "src",
     "test": "tests"
   },
   "files": [
-    "dist",
+    "lib",
     "README.md",
     "LICENSE"
   ],
-  "types": "dist/index.d.ts",
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AwesomeHamster/koishi-plugin-ffxiv-fflogs.git"

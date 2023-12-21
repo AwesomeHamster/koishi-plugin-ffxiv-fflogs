@@ -1,3 +1,5 @@
+import en from './en.json'
+
 export default {
-  'en': require('./en.yml')
+  en,
 }

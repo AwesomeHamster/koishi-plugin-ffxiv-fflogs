@@ -107,3 +107,4 @@ lib
 package-lock.json
 
 src/data/*.json
+src/i18n/*.json
