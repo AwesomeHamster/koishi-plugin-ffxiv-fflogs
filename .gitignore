@@ -105,3 +105,5 @@ lib
 .tern-port
 
 package-lock.json
+
+src/data/*.json

@@ -1,0 +1,139 @@
+- id: PLD
+  en: Paladin
+  ja: ナイト
+  fr: Paladin
+  de: Paladin
+  ko: 나이트
+  zh: 骑士
+- id: WAR
+  en: Warrior
+  ja: 戦士
+  fr: Guerrier
+  de: Krieger
+  ko: 전사
+  zh: 战士
+- id: DRK
+  en: Dark Knight
+  ja: 暗黒騎士
+  fr: Chevalier noir
+  de: Dunkelritter
+  ko: 암흑기사
+  zh: 暗黑骑士
+  aliases:
+    - 黑骑
+- id: GNB
+  en: Gunbreaker
+  ja: ガンブレイカー
+  fr: Pistolero
+  de: Revolverklinge
+  ko: 건브레이커
+  zh: 绝枪战士
+  aliases:
+    - 绝枪
+- id: WHM
+  en: White Mage
+  ja: 白魔道士
+  fr: Mage blanc
+  de: Weißmagier
+  ko: 백마도사
+  zh: 白魔法师
+  aliases:
+    - 白魔
+- id: SCH
+  en: Scholar
+  ja: 学者
+  fr: Érudit
+  de: Gelehrter
+  ko: 학자
+  zh: 学者
+- id: AST
+  en: Astrologian
+  ja: 占星術師
+  fr: Astronome
+  de: Astrologe
+  ko: 점성술사
+  zh: 占星术士
+  aliases:
+    - 占星
+- id: MNK
+  en: Monk
+  ja: モンク
+  fr: Moine
+  de: Mönch
+  ko: 몽크
+  zh: 武僧
+- id: DRG
+  en: Dragoon
+  ja: 竜騎士
+  fr: Chevalier dragon
+  de: Dragoon
+  ko: 용기사
+  zh: 龙骑士
+  aliases:
+    - 龙骑
+- id: NIN
+  en: Ninja
+  ja: 忍者
+  fr: Ninja
+  de: Ninja
+  ko: 닌자
+  zh: 忍者
+- id: SAM
+  en: Samurai
+  ja: 侍
+  fr: Samouraï
+  de: Samurai
+  ko: 사무라이
+  zh: 武士
+- id: BRD
+  en: Bard
+  ja: 吟遊詩人
+  fr: Barde
+  de: Barde
+  ko: 음유시인
+  zh: 吟游诗人
+  aliases:
+    - 诗人
+- id: MCH
+  en: Machinist
+  ja: 機工士
+  fr: Machiniste
+  de: Maschinist
+  ko: 기공사
+  zh: 机工士
+  aliases:
+    - 机工
+- id: DNC
+  en: Dancer
+  ja: 踊り子
+  fr: Danseur
+  de: Tänzer
+  ko: 무도가
+  zh: 舞者
+- id: BLM
+  en: Black Mage
+  ja: 黒魔道士
+  fr: Mage noir
+  de: Schwarzmagier
+  ko: 흑마도사
+  zh: 黑魔法师
+  aliases:
+    - 黑魔
+- id: SMN
+  en: Summoner
+  ja: 召喚士
+  fr: Invocateur
+  de: Beschwörer
+  ko: 소환사
+  zh: 召唤师
+  aliases:
+    - 召唤
+- id: RDM
+  en: Red Mage
+  ja: 赤魔道士
+  fr: Mage rouge
+  de: Rotmagier
+  ko: 적마도사
+  zh: 赤魔法师
+  aliases:
+    - 赤魔

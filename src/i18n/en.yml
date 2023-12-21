@@ -1,1 +1,48 @@
 commands:
+  fflogs.dps:
+    description: Show DPS for a given fight
+
+    usage: |
+      > Query overall rank for a given fight
+      fflogs dps <fight> <job>
+      > Query overall rank for a given fight at a given day
+      fflogs dps <fight> <job> -d <day>
+      > Query rank for a given fight with a given dps number
+      fflogs dps <fight> <job> <dps>
+      > Query rank for a given fight with a given dps number at a given day
+      fflogs dps <fight> <job> <dps> -d <day>
+      > Specify Chinese server or Global server instead of default one
+      fflogs dps ... -s CN
+      fflogs dps ... -s INTL
+      > Query for rDPS or nDPS or cDPS instead of default aDPS
+      fflogs dps ... -t rdps
+
+    options:
+      day: Day of the fight, default to today
+      server: Server of the fight, default to current server
+      type: Type of DPS, default to aDPS
+
+    messages:
+      output: |
+        <p><b>{bossName}</b> #{day} {server} {job} {dpsType}</p>
+        <p>100% {percentile.100}</p>
+        <p> 99% {percentile.99}</p>
+        <p> 95% {percentile.95}</p>
+        <p> 75% {percentile.75}</p>
+        <p> 50% {percentile.50}</p>
+        <p> 25% {percentile.25}</p>
+        <p> 10% {percentile.10}</p>
+      server:
+        intl: Global
+        cn: Chinese
+
+      bossNotFound: |
+        Boss &lt;{bossName}&gt; not found.
+      jobNotFound: |
+        Job &lt;{job}&gt; not found.
+      inconsistentData: |
+        The data is inconsistent, please try again later.
+      noData: |
+        No data found for {bossName} {day} {server} {job} {dpsType}
+      error: |
+        Error occurred while fetching data for {bossName} {day} {server} {job} {dpsType}: {error}
