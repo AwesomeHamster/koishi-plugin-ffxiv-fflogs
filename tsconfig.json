@@ -1,0 +1,21 @@
+{
+  "extends": "@hamster-bot/tsconfig",
+  "compilerOptions": {
+    "target": "es2022",
+    "composite": true,
+    "incremental": true,
+    "rootDir": "src",
+    "module": "CommonJS",
+    "outDir": "lib",
+    "types": [
+      "node",
+      "mocha"
+    ],
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@satorijs/element"
+  },
+  "include": [
+    "src"
+  ]
+}

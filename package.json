@@ -1,0 +1,83 @@
+{
+  "name": "koishi-plugin-ffxiv-fflogs",
+  "version": "0.0.5",
+  "description": "FFLogs toolbox",
+  "keywords": [
+    "bot",
+    "chatbot",
+    "plugin",
+    "koishi",
+    "koishijs",
+    "ffxiv",
+    "fflogs"
+  ],
+  "author": {
+    "name": "Maiko Tan",
+    "email": "maiko.tan.coding@gmail.com"
+  },
+  "homepage": "https://github.com/AwesomeHamster/koishi-plugin-ffxiv-fflogs",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AwesomeHamster/koishi-plugin-ffxiv-fflogs.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc",
+    "test": "mocha -r ts-node/register -r yml-register --extension .spec.ts ./__tests__",
+    "lint": "eslint src/**/*.ts && yarn prettier --check",
+    "format": "yarn prettier --write",
+    "prettier": "prettier '**/*.{js,ts,json,yml,yaml,md}' '!dist/**/*'"
+  },
+  "bugs": {
+    "url": "https://github.com/AwesomeHamster/koishi-plugin-ffxiv-fflogs/issues"
+  },
+  "koishi": {
+    "description": {
+      "en": "FFLogs Toolbox",
+      "zh": "FFLogs 工具箱",
+      "zh-tw": "FFLogs 工具箱",
+      "ja": "FFLogs ツールボックス",
+      "fr": "Boîte à outils FFLogs",
+      "de": "FFLogs Toolbox",
+      "ko": "FFLogs 도구 상자"
+    },
+    "locales": [
+      "en"
+    ]
+  },
+  "peerDependencies": {
+    "koishi": "^4.11.0"
+  },
+  "packageManager": "yarn@3.1.1",
+  "prettier": "@hamster-bot/prettier-config",
+  "devDependencies": {
+    "@hamster-bot/eslint-config": "*",
+    "@hamster-bot/prettier-config": "*",
+    "@hamster-bot/tsconfig": "^0.0.2",
+    "@koishijs/cache": "^2.1.0",
+    "@koishijs/plugin-mock": "^2.6.5",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.10.1",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "mocha": "^10.2.0",
+    "prettier": "^3.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2",
+    "yml-register": "^1.1.0"
+  }
+}
